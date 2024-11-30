@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "This is MARN project Backend ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javescript",
@@ -13,5 +14,8 @@
     "node"
   ],
   "author": "AnikAhmed",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
